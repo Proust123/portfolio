@@ -13,7 +13,7 @@ const Work = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <div className="h-screen w-full flex bg-black relative">
+    <div className="h-max w-full flex bg-black relative">
       {/* Sidebar only appears when isSidebarOpen is true */}
       {isSidebarOpen && (
         <div
