@@ -14,12 +14,12 @@ const MyContact = ({ setIsSidebarOpen }) => {
         
         
         <div className="mb-8 text-lg">
-          <p>Email: <a href="mailto:your-email@example.com" className="text-blue-400">your-email@example.com</a></p>
-          <p>Phone: +123 456 7890</p>
+          <p>Email: <a href="mailto:your-email@example.com" className="text-blue-400">sultan.khalid.work@gmail.com</a></p>
+          <p>Phone: +92 311 2970524</p>
         </div>
         
         
-        <form action="https://formsubmit.co/sultanmkhalid123@gmail.com" method="POST" className="w-full max-w-md bg-gray-800 p-6 rounded-lg">
+        <form action="https://formsubmit.co/sultan.khalid.work@gmail.com" method="POST" className="w-full max-w-md bg-gray-800 p-6 rounded-lg">
           <input type="text" name="name" placeholder="Your Name" required className="w-full p-2 mb-4 bg-gray-700 text-white rounded" />
           <input type="email" name="email" placeholder="Your Email" required className="w-full p-2 mb-4 bg-gray-700 text-white rounded" />
           <textarea name="message" placeholder="Your Message" required className="w-full p-2 mb-4 bg-gray-700 text-white rounded"></textarea>
